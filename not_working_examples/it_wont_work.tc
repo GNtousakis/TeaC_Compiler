@@ -1,0 +1,9 @@
+const add <- (i: int,y: int): int => {
+	
+	let j: int;
+	j <- x + y;	
+	return j;
+};    
+   
+
+}

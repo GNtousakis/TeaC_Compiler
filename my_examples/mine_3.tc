@@ -1,0 +1,41 @@
+const i,j <- 10:int;
+const x<-5,y : real;
+
+const add <- (i: int,y: int): int => {
+	
+	let j: int;
+	j <- x + y;	
+	return j;
+};    
+
+const meion <- (i: int,y: int): int => {
+	
+	let j: int;
+	j <- x - y;	
+	return j;
+};
+   
+const start <- (): int => { 
+
+	let x,y,z: int;
+	y <- 10;
+	z <- 5; 
+	
+	x <- add(y,z) + meion(y,z);
+	if x<3 then
+		printf("I am amazing");
+	else if x<5 then
+		printf("I am not that amazing");
+	else 	
+		printf("I am scrapas");
+	fi;
+
+	while (x<6 or y<7) loop
+		z<- x + y;
+		meion(l,g);
+		add(i,j);
+	pool;
+ 
+	
+	return 0;
+}

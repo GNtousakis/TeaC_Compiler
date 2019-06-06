@@ -1,0 +1,17 @@
+const add <- (i: int,y: int): int => {
+	
+	let j: int;
+	j <- x + y;	
+	return j;
+};    
+   
+const start <- (): int => { 
+
+	let x,y,z: int;
+	y <- 10;
+	z <- 5; 
+	
+	x <- add(y,z); 
+	
+	return 0;
+}
